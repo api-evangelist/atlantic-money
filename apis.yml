@@ -1,8 +1,26 @@
 aid: atlantic-money
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atlantic-money.png
 name: Atlantic Money
-description: 'Atlantic Money is a company surfaced as a portfolio company of index-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Atlantic Money is a London-based fintech, founded in 2020 by Robinhood
+  alumni and backed by Index Ventures, offering international money transfers at a
+  flat GBP 3 fee with the live mid-market exchange rate and no FX markup. The service
+  supports transfers across ten currencies with direct bank deposits and standard
+  or express delivery, for both consumers and businesses, and is authorized and regulated
+  by the UK FCA as a payment institution. Atlantic Money is a consumer- and business-facing
+  mobile and web application; it publishes no public developer API, OpenAPI, or SDK
+  surface, so this network profile is limited to company identity, website property
+  links, and probed domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/atlantic-money/refs/heads/main/apis.yml
 x-type: company
 x-source: index-ventures-portfolio
@@ -10,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Fintech
+- Money Transfer
+- Payments
+- Foreign Exchange
+- Remittance
+- Financial Services
+- FCA Regulated
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,20 @@ maintainers:
 common:
 - type: Website
   url: https://atlantic.money/
+- type: Support
+  url: https://support.atlantic.money/
+- type: Blog
+  url: https://news.atlantic.money/
+- type: PrivacyPolicy
+  url: https://atlantic.money/l/privacy-policy
+- type: TermsOfService
+  url: https://atlantic.money/l/user-agreement
+- type: SignUp
+  url: https://app.atlantic.money/
+- type: DomainSecurity
+  url: security/atlantic-money-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
