@@ -47,7 +47,7 @@ tags:
 - Payments
 - Foreign Exchange
 - Remittances
-- Financial-Services
+- Financial Services
 - FCA Regulated
 tags_raw:
 - Company
@@ -58,6 +58,7 @@ tags_raw:
 - Remittance
 - Financial Services
 - FCA Regulated
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
